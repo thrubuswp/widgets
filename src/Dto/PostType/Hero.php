@@ -14,6 +14,6 @@ final class Hero
         #[SerializedName('image_url')]
         public readonly string $imageUrl,
         public readonly string $description,
-        public readonly ?string $subtitle = null,
+        public readonly ?string $subtitle = null
     ) {}
 }
