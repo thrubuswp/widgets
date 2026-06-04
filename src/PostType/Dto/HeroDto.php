@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ThrubusWP\Widgets\Dto\PostType;
+namespace ThrubusWP\Widgets\PostType\Dto;
 
 use Symfony\Component\Serializer\Annotation\SerializedName;
 
-final class Hero
+final class HeroDto
 {
 
     public function __construct(
