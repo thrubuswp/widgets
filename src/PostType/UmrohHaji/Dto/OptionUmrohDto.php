@@ -15,5 +15,6 @@ final class OptionUmrohDto
         #[SerializedName('image_url')]
         public readonly array $imageUrl,
         public readonly string $price,
+
     ) {}
 }

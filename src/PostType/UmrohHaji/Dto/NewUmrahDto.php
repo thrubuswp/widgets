@@ -17,5 +17,7 @@ final class NewUmrahDto
         #[SerializedName('maskapai_icons')]
         public readonly array $maskapaiIcons,
         public readonly string $price,
+        #[SerializedName('image_url')]
+        public readonly string $imageUrl,
     ) {}
 }
