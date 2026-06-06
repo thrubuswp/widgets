@@ -6,7 +6,7 @@ namespace ThrubusWP\Widgets\PostType\UmrohHaji\Dto;
 
 use Symfony\Component\Serializer\Annotation\SerializedName;
 
-final class FeaturedUmrahDto
+final class FeaturedUmrohDto
 {
 
     public function __construct(
