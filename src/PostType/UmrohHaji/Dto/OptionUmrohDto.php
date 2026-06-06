@@ -13,7 +13,7 @@ final class OptionUmrohDto
         public readonly string $name,
         public readonly float $star,
         #[SerializedName('image_url')]
-        public readonly array $imageUrl,
+        public readonly string $imageUrl,
         public readonly string $price,
     ) {}
 }
